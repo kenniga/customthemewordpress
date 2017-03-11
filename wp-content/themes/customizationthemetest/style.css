@@ -1,0 +1,32 @@
+/*
+Theme Name: Customization Theme Test
+Theme URI: 
+Author: Kenni Gandira Alamsyah
+Author URI: https://www.linkedin.com/in/kenni-gandira-alamsyah-446b95114/
+Description: TThis theme for test purpose only.
+Version: 0.1
+
+*/
+
+@import url(../twentyseventeen/style.css);
+
+@media screen and (min-width: 48em) {
+	.navigation-top {
+		top: 0;
+	    bottom: inherit;
+        background: rgba(255,255,255,0.3);
+	    color: white;
+	    border-bottom: transparent;
+	}
+	
+}
+.navigation-top a {
+    color: #222;
+    font-weight: 200;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+    color: black;
+}
